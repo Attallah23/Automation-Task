@@ -4,7 +4,7 @@ import { ClientFunction } from 'testcafe';
 fixture`Test Automation for log in page`
     .page`https://practicetestautomation.com/practice-test-login/`;
 
-test('Log in User with valid Username and password, assertions of exist the log out button and the new URL', async t => {
+test(' Log in User with valid Username and password, assertions of exist the log out button and the new URL', async t => {
     
     let username=Selector('#username')
     let password=Selector('#password')
